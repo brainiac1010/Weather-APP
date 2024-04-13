@@ -48,7 +48,6 @@ body {
     width: 60px;
     height: 60px;
     cursor: pointer;
-
 }
 
 .search button img {
@@ -58,7 +57,6 @@ body {
 .weather-icon {
     width: 170px;
     margin-top: 30px;
-
 }
 
 .weather h1 {
@@ -81,7 +79,6 @@ body {
 }
 
 .col {
-
     display: flex;
     align-items: center;
     text-align: left;
@@ -90,14 +87,12 @@ body {
 .col img {
     width: 40px;
     margin-right: 10px;
-    ;
 }
 
 .humidity,
 .wind {
     font-size: 20px;
     margin-top: -2px;
-
 }
 
 .weather {
@@ -110,4 +105,27 @@ body {
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .card {
+        padding: 30px;
+    }
+
+    .search input {
+        font-size: 16px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .details {
+        flex-direction: column;
+    }
 }
