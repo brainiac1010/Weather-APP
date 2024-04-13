@@ -108,7 +108,7 @@ body {
     display: none;
 }
 
-/* Media Queries for responsiveness */
+
 @media only screen and (max-width: 768px) {
     .card {
         padding: 30px;
