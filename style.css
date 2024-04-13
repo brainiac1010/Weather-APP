@@ -36,7 +36,6 @@ body {
     height: 60px;
     border-radius: 30px;
     flex: 1;
-    margin-right: 16px;
     font-size: 18px;
 }
 
@@ -48,6 +47,8 @@ body {
     width: 60px;
     height: 60px;
     cursor: pointer;
+    margin-left: 16px;
+    /* Adjusted from margin-right to margin-left */
 }
 
 .search button img {
@@ -127,5 +128,12 @@ body {
 
     .details {
         flex-direction: column;
+    }
+
+    .search button {
+        margin-left: 0;
+        /* Adjusted to remove margin-left on smaller screens */
+        margin-top: 10px;
+        /* Added to provide space between input and button */
     }
 }
