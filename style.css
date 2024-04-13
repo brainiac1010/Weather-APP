@@ -48,7 +48,7 @@ body {
     height: 60px;
     cursor: pointer;
     margin-left: 16px;
-    /* Adjusted from margin-right to margin-left */
+   
 }
 
 .search button img {
@@ -132,8 +132,8 @@ body {
 
     .search button {
         margin-left: 0;
-        /* Adjusted to remove margin-left on smaller screens */
+     
         margin-top: 10px;
-        /* Added to provide space between input and button */
+       
     }
 }
